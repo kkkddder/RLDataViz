@@ -1,12 +1,9 @@
-h1 {
+/*h1 {
 	color: #1E1E1E;
 	font-family: 'Nunito', sans-serif;
 	text-align: center;
 	vertical-align: middle;
-	/*position: fixed;*/
-	top: 85px;
-	position: relative;
-}
+}*/
 
 
 h2 {
@@ -21,7 +18,8 @@ h2 {
 }
 
 
-p.bioa {
+
+/*p.bioa {
 	color: rgba(80,80,80,100);
 	font-family: 'Nunito', sans-serif;
 	text-align: center;
@@ -48,7 +46,7 @@ p.biob {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;	
-}
+}*/
 
 
 
@@ -96,17 +94,67 @@ li a:hover {
     color: white;
 }
 
-img {
-    border-radius: 50%;
-    display: block;
-    top: 145px;
-    width: 400px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.6;
+table {
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	border-spacing: 20px;
+	width: 75%;
 }
 
+
+/*img {
+  opacity: 1;
+  display: block;
+  width: 25%
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  
+}*/
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 380px;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgba(130,130,130,60);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 15px;
+}
 
 
 
@@ -116,5 +164,18 @@ mark {
     color: white;
 }
 
+hr { 
+    display: block;
+    color: #787878;
+    margin-top: 145px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    height: 30px; 
+    width: 85%;
+  	border-style: solid; 
+  	border-color: #8c8b8b; 
+  	border-width: 1px 0 0 0; 
+  	border-radius: 20px;
+}
 
 
