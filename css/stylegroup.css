@@ -17,6 +17,17 @@ h2 {
 	position: relative;
 }
 
+h1 {
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  top: 90px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+
 
 
 /*p.bioa {
@@ -94,13 +105,13 @@ li a:hover {
     color: white;
 }
 
-table {
+/*table {
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
 	border-spacing: 20px;
 	width: 75%;
-}
+}*/
 
 
 /*img {
@@ -115,7 +126,7 @@ table {
 }*/
 
 
-.container {
+/*.container {
     position: relative;
     width: 50%;
 }
@@ -149,12 +160,12 @@ table {
 }
 
 .text {
-  background-color: rgba(130,130,130,0.8);
+  background-color: rgba(130,130,130,60);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 15px;
-}
+}*/
 
 
 
