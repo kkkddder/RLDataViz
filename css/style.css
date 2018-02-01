@@ -66,6 +66,7 @@ ul {
     position: fixed; 
     overflow: auto; 
     top: 0;
+    z-index: 1000;
     /*mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);*/
     /*mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);*/
     /*left: -3px;*/

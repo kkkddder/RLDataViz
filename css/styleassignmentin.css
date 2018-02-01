@@ -113,6 +113,9 @@ li a:hover {
     color: white;
 }
 
+
+
+
 /*table {
 	margin: auto;
 	text-align: center;
@@ -174,6 +177,22 @@ li a:hover {
   padding: 16px 32px;
   border-radius: 15px;
 }*/
+
+
+img {
+  opacity: 1;
+  display: block;
+  width: 760px;
+  height: 600px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  top: 200px;
+  position: relative;
+}
 
 
 
