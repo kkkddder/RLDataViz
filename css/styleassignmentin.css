@@ -35,7 +35,19 @@ h1 {
   position: relative;
 }
 
+h4 {
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  text-align: right;
+  vertical-align: middle;
+  top: 90px;
+  width: relative;
+  margin: auto;
+  margin-right: 10%;
+  position: relative;
+  text-decoration: underline;
 
+}
 
 /*p.bioa {
 	color: rgba(80,80,80,100);
