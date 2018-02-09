@@ -12,13 +12,26 @@
 
 
 
-h2 {
+h2.a {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   vertical-align: middle;
   top: 90px;
-  width: 500px;
+  width: 600px;
+  margin: auto;
+  position: relative;
+}
+
+
+
+h2.b {
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  top: 120px;
+  width: 600px;
   margin: auto;
   position: relative;
 }
@@ -194,8 +207,8 @@ li a:hover {
 img {
   opacity: 1;
   display: block;
-  width: 760px;
-  height: 600px;
+  width: 50%;
+  height: 50%;
   text-align: center;
   vertical-align: middle;
   margin: auto;
@@ -226,6 +239,35 @@ hr {
   	border-color: #8c8b8b; 
   	border-width: 1px 0 0 0; 
   	border-radius: 20px;
+}
+
+p.bioa {
+  color: rgba(80,80,80,100);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 620px;
+
+  position: relative; 
+  top: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+}
+p.biob {
+  color: rgba(80,80,80,100);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 620px;
+
+  position: relative; 
+  top: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
 }
 
 
