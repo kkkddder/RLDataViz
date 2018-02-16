@@ -34,6 +34,7 @@ h2.b {
   width: 600px;
   margin: auto;
   position: relative;
+  z-index: 1000;
 }
 
 
@@ -268,6 +269,46 @@ p.biob {
   display: flex;
   justify-content: center;
   flex-direction: column; 
+}
+p.bioc {
+  color: rgba(80,80,80,100);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 620px;
+
+  position: relative; 
+  top: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  z-index: 1000;
+}
+
+
+div#color {
+  margin: auto;
+  display: flex;
+  top: 250px;
+  position: relative;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  /*align-items: center;*/
+}
+
+div#distance {
+  margin: auto;
+  display: flex;
+  top: 400px;
+  position: relative;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
 }
 
 
