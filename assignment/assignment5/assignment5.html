@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RL &mdash; Ruoran Lin</title>
+    <meta name="author" content="Ruoran Lin">
+    <link rel="stylesheet" type="text/css" href="../../css/styleassignmentin.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <!-- Link to the p5.js library -->
+    <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+    <!-- Link to p5 sketch file -->
+    <script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+  </head>
+  <body>
+
+    <ul>
+      <li><a href="../../home.html">Home</a></li>
+      <li><a href="../../assignment.html"><mark>Assignment</mark></a></li>
+      <!-- <li><a href="../assignment.html">Assignment</a></li> -->
+      <li><a href="../../group.html">Group Project</a></li>
+      <li><a href="../../contact.html">Contact</a></li>
+    </ul>
+
+    <h2 class="a">Assignment 5</h2>
+
+    <a class="back" href="../../assignment.html">
+      <h4 class="back">Back to Assignment List</h4>
+    </a>
+
+    <a class="last" href="../assignment4.html">
+      <h4 class="last">Last Assignment</h4>
+    </a>
+
+    <a class="next" href="../assignment6.html">
+      <h4 class="next">Next Assignment</h4>
+    </a>
+
+    <hr> 
+
+    <h2 class="b">Grid PLUTO</h2>
+
+    <!-- <img src="../../img/a5.jpg" alt="Hello World!"> -->
+    <p class="pa">This assignment aims to test the visualization of PLUTO data in the form of non-spatial grids. It includes two parts of visualization at two different levels - neighborhoods (Part I) and lots (Part II).</p>
+    <h3 class="b">Part I: Neighborhoods</h3>
+
+    <p class="pb">Description: The grid graph as below compares the number of buildings constructed in each neighborhood from 1900 to 2015. The neighborhoods are arranged from top to bottom based on north/south locations. Each cell in the grids represents a neighborhood in a particular year. The gradient color indicates the number of buildings for a particular neighborhood in a particular year. Each row represents the number of building construction for a particular neighborhood as time changed. Each colume shows the number of building construction in a particular year among these selected neighborhoods.</p>
+    <p class="pb">Findings: Neighborhood development across these 26 neighborhoods, especially building construction reached its peak in the year of 1900, 1910, 1915, 1920, 1930, 1940, and 1950. From 1955 to 1965, neighborhood development clustered in Midtown while uptown neighborhoods, especially Harlem, were redeveloped around 2000. These findings fit in the history of NYC zoning regulations and urban gentrification in general.</p>
+
+    <h3 class="c">Numbers of Building construction for Twenty-six Manhattan Neighborhoods from 1900 to 2015</h3>
+
+
+    <div id="neighborhood">
+    </div>
+    <h3 class="d">Part II: Lots</h3>
+    <p class="pc">Description: The grid graph as below represents the number of buildings constructed in a particular neighborhood each year from 1900 to 2015. Each cell in the grid represents a lot in the neighborhood. The gradient color indicates the built FAR value for the lot. Each colume shows the number of building construction for a particular year in the neighborhoods. The numbers on the top of bars present the number of building construction (larger than two) in each year. Generally, this grid graph looks like a simplified urban skyline, which implies the development of urban areas.</p>
+    <h3 class="e">Built FAR of Building construction in Manhattanville Neighborhood from 1900 to 2015</h3>
+    <div id="lot">
+    </div>
+    <h3 class="f">Conclusions</h3>
+    <p class="pd">The first part of visualization attempts to include the information of buildings, neighborhoods, and years without large loss of details. The second part focuses on built FARs within one neighborhood. The next step of these two grid graghs is to combine these two parts through interactivity. For instance, by clicking the name of a neighborhood at the right side in Part I, it will pop up the responding Part II graph for that neighborhood. Also, more info (numbers of buildings and max built FAR) can be shown by adding pop-up boxes when moving the cursor on the grid graph in Part I.</p>
+    <p class="pe">The first part of visualization attempts to include the information of buildings, neighborhoods, and years without large loss of details. The second part focuses on built FARs within one neighborhood. The next step of these two grid graghs is to combine these two parts through interactivity. For instance, by clicking the name of a neighborhood at the right side in Part I, it will pop up the responding Part II graph for that neighborhood. Also, more info (numbers of buildings and max built FAR) can be shown by adding pop-up boxes when moving the cursor on the grid graph in Part I.</p>
+    
+
+  </body>
+</html>

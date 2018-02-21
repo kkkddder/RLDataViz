@@ -61,33 +61,33 @@ function draw() {
  
 // save this file as sketch.js
 // Sketch One
-var s = function( p ) { // p could be any variable name
-  p.setup = function() {
-    p.createCanvas(800, 400);
-  };
+// var s = function( p ) { // p could be any variable name
+//   p.setup = function() {
+//     p.createCanvas(800, 400);
+//   };
 
-  p.draw = function() {
-    p.noStroke();
-	// var c = color(255, 204, 0);
-	// var k = 0;
-	var s = 0;
-	colorMode(HSB);
-	for (var i = 0; i < 100; i++) {
-		var h = 360;
-	  for (var j = 0; j < 100; j++) {
-	    // stroke(i, j, 100);
-	    // point(i, j);
-	    // fill(i, j);
-	    // fill(color(c));
-	    p.fill(250, 100, 100);
-	    // p.fill(0);
-	    p.rect(j*10, i*10, 10, 10);
-	    h = h - 3;
-	  }
-	  s++;
-	  // k = k + 15;
-	}
-  };
+//   p.draw = function() {
+//     p.noStroke();
+// 	// var c = color(255, 204, 0);
+// 	// var k = 0;
+// 	var s = 0;
+// 	colorMode(HSB);
+// 	for (var i = 0; i < 100; i++) {
+// 		var h = 360;
+// 	  for (var j = 0; j < 100; j++) {
+// 	    // stroke(i, j, 100);
+// 	    // point(i, j);
+// 	    // fill(i, j);
+// 	    // fill(color(c));
+// 	    fill(250, 100, 100);
+// 	    // p.fill(0);
+// 	    p.rect(j*10, i*10, 10, 10);
+// 	    h = h - 3;
+// 	  }
+// 	  s++;
+// 	  // k = k + 15;
+// 	}
+//   };
  	
 // };
 // var myp5 = new p5(s, 'color');
