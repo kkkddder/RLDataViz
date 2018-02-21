@@ -353,22 +353,10 @@ p.pd {
   display: flex;
   justify-content: center;
   flex-direction: column; 
+  margin-bottom: 150px;
 }
 
-p.pe {
-  color: white;
-  font-family: 'Nunito', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  width: 620px;
-  text-indent: 50px;
-  position: relative; 
-  top: 450px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
+
 div#color {
   margin: auto;
   display: flex;
