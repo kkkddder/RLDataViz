@@ -78,7 +78,7 @@ var p5_bubbles = new p5(function(sketch) {
 	var MNyear = ["1900", "1910","1920", "1930","1940", "1950","1960", "1970","1980", "1990","2000", "2010"]; 
 	var numLot = [0,10,20,30,40,50,60];
 	sketch.preload = function() {
-		MNTable2 = sketch.loadTable('../../../assignment/assignment5/data/part2.csv', 'csv', 'header'); // tell it read the first row as header
+		MNTable2 = sketch.loadTable('../../assignment/assignment5/data/part2.csv', 'csv', 'header'); // tell it read the first row as header
 		// console.log('Table has been loaded...'); // console.log for js in general, print for p5 library
 		sketch.print(MNTable2.getRowCount());
 	}
