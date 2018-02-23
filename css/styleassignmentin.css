@@ -1,38 +1,27 @@
-/*h1 {
-	color: #1E1E1E;
-	font-family: 'Nunito', sans-serif;
-	text-align: center;
-	vertical-align: middle;
-  position: relative;
-  margin: auto;
-  top: 200px;
-}
-*/
-
-
-
-
-h2.a {
+h2.assignment {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  vertical-align: middle;
-  top: 90px;
+  /*vertical-align: middle;*/
+  /*top: 90px;*/
   width: 600px;
   margin: auto;
+  margin-top: 120px;
   position: relative;
 }
 
 
 
-h2.b {
+h2.title {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  vertical-align: middle;
-  top: 120px;
+  /*vertical-align: middle;*/
+  /*top: 120px;*/
   width: 600px;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
   position: relative;
   z-index: 1000;
 }
@@ -42,8 +31,9 @@ h1 {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  vertical-align: middle;
-  top: 90px;
+  /*vertical-align: middle;*/
+  /*top: 90px;*/
+  margin-top: 50px;
   width: 500px;
   margin: auto;
   position: relative;
@@ -53,11 +43,12 @@ h4.last {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: left;
-  vertical-align: middle;
-  top: 120px;
+  /*vertical-align: middle;*/
+  /*top: 120px;*/
   width: relative;
   margin: auto;
   margin-left: 10%;
+  margin-top: 60px;
   position: relative;
   text-decoration: underline;
   float:left;
@@ -68,11 +59,12 @@ h4.next {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: left;
-  vertical-align: middle;
-  top: 120px;
+  /*vertical-align: middle;*/
+  /*top: 120px;*/
   width: relative;
   margin: auto;
   margin-left: 2%;
+  margin-top: 60px;
   position: relative;
   text-decoration: underline;
   float:left;
@@ -83,10 +75,11 @@ h4.back {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: right;
-  vertical-align: middle;
-  top: 120px;
+  /*vertical-align: middle;*/
+  /*top: 120px;*/
   width: relative;
   margin: auto;
+  margin-top: 60px;
   margin-right: 10%;
   position: relative;
   text-decoration: underline;
@@ -94,75 +87,53 @@ h4.back {
   float:right;
 }
 
+h4.a {
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  /*vertical-align: middle;*/
+  /*top: 120px;*/
+  width: relative;
+  margin: auto;
+  /*margin-left: 10%;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 400px;
+  /*text-decoration: underline;*/
+  /*float:left;*/
+  /*vertical-align: top;*/
+}
+
 h3.a {
   color: #787878;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   vertical-align: middle;
-  top: 120px;
+  /*top: 120px;*/
   width: 600px;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 1000;
 }
 
-h3.b {
-  color: #787878;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  top: 200px;
-  width: 620px;
-  margin: auto;
-  position: relative;
-  z-index: 1000;
-}
-h3.c {
-  color: #787878;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  top: 250px;
-  width: 620px;
-  margin: auto;
-  position: relative;
-  z-index: 1000;
-}
 
-h3.d {
-  color: #787878;
+p.pa {
+  color: rgba(80,80,80,100);
   font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  top: 320px;
-  width: 620px;
+  text-align: left;
+  /*vertical-align: middle;*/
+  width: 450px;
+  text-indent: 50px;
+  position: relative; 
+  /*top: 180px;*/
   margin: auto;
-  position: relative;
-  z-index: 1000;
-}
-
-h3.e {
-  color: #787878;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  top: 380px;
-  width: 580px;
-  margin: auto;
-  position: relative;
-  z-index: 1000;
-}
-
-h3.f {
-  color: #787878;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  top: 420px;
-  width: 580px;
-  margin: auto;
-  position: relative;
-  z-index: 1000;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
 }
 
 
@@ -211,21 +182,18 @@ li a:hover {
 }
 
 
-
-
-
 img {
   opacity: 1;
   display: block;
   width: 50%;
   height: 50%;
   text-align: center;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   margin: auto;
   transition: .5s ease;
   backface-visibility: hidden;
   border-radius: 15px;
-  top: 200px;
+  /*top: 200px;*/
   position: relative;
 }
 
@@ -240,7 +208,7 @@ mark {
 hr { 
     display: block;
     color: #787878;
-    margin-top: 165px;
+    margin-top: 100px;
     /*margin-left: auto;
     margin-right: auto;*/
     height: 30px; 
@@ -251,119 +219,15 @@ hr {
   	border-radius: 20px;
 }
 
-p.bioa {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  width: 620px;
-
-  position: relative; 
-  top: 200px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
-p.biob {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  width: 620px;
-
-  position: relative; 
-  top: 250px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
-p.bioc {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  width: 620px;
-
-  position: relative; 
-  top: 300px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-  z-index: 1000;
-}
-
-
-p.pa {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  width: 620px;
-  text-indent: 50px;
-  position: relative; 
-  top: 180px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
-p.pb {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  width: 620px;
-  text-indent: 50px;
-  position: relative; 
-  top: 210px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
-
-p.pc {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  width: 620px;
-  text-indent: 50px;
-  position: relative; 
-  top: 340px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-}
-
-p.pd {
-  color: rgba(80,80,80,100);
-  font-family: 'Nunito', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  width: 620px;
-  text-indent: 50px;
-  position: relative; 
-  top: 450px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; 
-  margin-bottom: 150px;
-}
-
 
 div#color {
   margin: auto;
   display: flex;
-  top: 250px;
+  /*top: 250px;*/
   position: relative;
   /* This centers our sketch horizontally. */
   justify-content: center;
+  margin-bottom: 10px;
 
   /* This centers our sketch vertically. */
   /*align-items: center;*/
@@ -372,11 +236,11 @@ div#color {
 div#distance {
   margin: auto;
   display: flex;
-  top: 400px;
+  /*top: 400px;*/
   position: relative;
   /* This centers our sketch horizontally. */
   justify-content: center;
-
+  margin-bottom: 10px;
   /* This centers our sketch vertically. */
   align-items: center;
 }
@@ -385,23 +249,27 @@ div#distance {
 div#neighborhood {
   margin: auto;
   display: flex;
-  top: 280px;
+  /*top: 280px;*/
   position: relative;
+  /*width: 80%;*/
   /* This centers our sketch horizontally. */
   justify-content: center;
   z-index: 1000;
+  margin-bottom: 10px;
   /* This centers our sketch vertically. */
   /*align-items: center;*/
   align-items: center;
 }
+
 div#lot {
   margin: auto;
   display: flex;
-  top: 400px;
+  /*top: 400px;*/
   position: relative;
   /* This centers our sketch horizontally. */
   justify-content: center;
   z-index: 1000;
+  margin-bottom: 10px;
   /* This centers our sketch vertically. */
   /*align-items: center;*/
   align-items: center;
