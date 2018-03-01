@@ -1,5 +1,6 @@
 var p5_colors = new p5(function(sketch){
 	// var MNheader = ["MN01: Marble Hill-Inwood","MN35: Washington Heights North","MN36: Washington Heights South","MN03: Central Harlem North-Polo Grounds","MN04: Hamilton Heights","MN06: Manhattanville","MN09: Morningside Heights","MN11: Central Harlem South","MN33: East Harlem South","MN34: East Harlem North","MN12: Upper West Side","MN32: Yorkville","MN31: Lenox Hill-Roosevelt Island","MN14: Lincoln Square","MN15: Clinton","MN17: Midtown-Midtown South","MN19: Turtle Bay-East Midtown","MN20: Murray Hill-Kips Bay","MN13: Hudson Yards-Chelsea-Flatiron-Union Square","MN21: Gramercy","MN22: East Village","MN23: West Village","MN24: SoHo-TriBeCa-Civic Center-Little Italy","MN28: Lower East Side","MN27: Chinatown","MN25: Battery Park City-Lower Manhattan"];
+	var MNcode = ["MN01","MN35","MN36","MN03","MN04","MN06","MN09","MN11","MN33","MN34","MN12","MN32","MN31","MN14","MN15","MN17","MN19","MN20","MN13","MN21","MN22","MN23","MN24","MN28","MN27","MN25"];
 	var MNheader = ["Marble Hill-Inwood","Washington North","Washington South","Central Harlem North","Hamilton Heights","Manhattanville","Morningside Heights","Central Harlem South","East Harlem South","East Harlem North","Upper West Side","Yorkville","Lenox Hill","Lincoln Square","Clinton","Midtown South","Turtle Bay","Murray Hill","Hudson Yards","Gramercy","East Village","West Village","SoHo-TriBeCa","Lower East Side","Chinatown","Lower Manhattan"];
 	var MNyear = ["1900", "1910","1920", "1930","1940", "1950","1960", "1970","1980", "1990","2000", "2010"]; 
 	var canvasprop;
@@ -34,7 +35,9 @@ var p5_colors = new p5(function(sketch){
 			for (var i = 0; i < MNTable1.getRowCount(); i++) {
 				var year = MNTable1.getNum(i, 'Year');
 				var number = MNTable1.getNum (i, j);
-				var r = number * 50 / 1090;
+				// var r = sketch.map(number, 0, 255, 0, 1090);
+				// sketch.print(r);
+				var r = number/20;
 				var colorBox = sketch.lerpColor(from, to, r);
 				// print(r);
 				sketch.fill(colorBox);
@@ -60,7 +63,7 @@ var p5_colors = new p5(function(sketch){
 			sketch.rect((605 + m*10)*canvasprop, 320*canvasprop, 10*canvasprop, 10*canvasprop);
 			if (m == 0) {
 				sketch.fill(textColor);
-				sketch.text("1090",605 * canvasprop, 350 * canvasprop);
+				sketch.text("50",605 * canvasprop, 350 * canvasprop);
 			} 
 			else if (m == 10) {
 				sketch.fill(textColor);
@@ -69,7 +72,7 @@ var p5_colors = new p5(function(sketch){
 			
 		}
 		sketch.fill(textColor);
-		sketch.text("Number of Buildings",605* canvasprop, 310* canvasprop);
+		sketch.text("Number of Buildings / 20",595* canvasprop, 310* canvasprop);
 	}
 
 	sketch.mousePressed = function() {
@@ -86,17 +89,18 @@ var p5_colors = new p5(function(sketch){
 				sketch.fill(230);
 				sketch.stroke(255);
 				sketch.strokeWeight(2);
-				sketch.rect(rightX, bottomY, 160 * canvasprop, 80 * canvasprop, 0.5);
+				sketch.rect(rightX, bottomY, 160 * canvasprop, 90 * canvasprop, 0.5);
 				var year = MNTable1.getNum(i, 'Year');
 				var neighborhood = MNheader[j];
 				var number = MNTable1.getNum(i, j+1);
+				var code = MNcode[j];
 				sketch.print(year);
 				sketch.print(neighborhood);
 				sketch.print(number);
 				sketch.fill(textColor);
 				sketch.noStroke();
 				sketch.textSize(textsize * canvasprop);
-				sketch.text("Neighborhood: " + neighborhood + "\n" + "Year: " + year + "\n" + "Number of Buildings: " + number, rightX + 8 * canvasprop, bottomY + 8 * canvasprop, 160 * canvasprop, 80 * canvasprop, 10);
+				sketch.text("Neighborhood: " + neighborhood + "\n" + "Neighborhood Code: " + code + "\n" + "Year: " + year + "\n" + "Number of Buildings: " + number, rightX + 8 * canvasprop, bottomY + 8 * canvasprop, 160 * canvasprop, 80 * canvasprop, 10);
 			}
 		}
 	}
