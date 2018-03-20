@@ -275,3 +275,64 @@ div#lot {
   align-items: center;
 }
 
+div#button {
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+  display: flex;
+  /*top: 280px;*/
+  position: relative;
+  /*width: 80%;*/
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  z-index: 1000;
+  margin-bottom: 10px;
+  /* This centers our sketch vertically. */
+  /*align-items: center;*/
+  align-items: center;
+}
+
+div#weather {
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+  display: flex;
+  /*top: 280px;*/
+  position: relative;
+  /*width: 80%;*/
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  z-index: 1000;
+  margin-bottom: 10px;
+  /* This centers our sketch vertically. */
+  /*align-items: center;*/
+  align-items: center;
+}
+
+input#city {
+  font-family: 'Nunito', sans-serif;
+  width: 388px;
+  height: 50px;
+  border-width: 3px;
+/*  border-right-width: 3px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;*/
+  /*border: 20px;*/
+  border-color: #D7D7D7; 
+  margin-right: 5px;
+  border-style: solid;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #9B9B9B;
+}
+
+button#submit {
+    font-family: 'Nunito', sans-serif;
+    background-color: #D7D7D7; /* Green */
+    border: none;
+    color: black;
+    padding: 12px 107px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+}
